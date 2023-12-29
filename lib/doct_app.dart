@@ -16,6 +16,7 @@ class DoctApp extends StatelessWidget {
       // The size of the device screen in the design draft, in dp
       designSize: const Size(375, 812),
       // 	Whether to adapt the text according to the minimum of width and height
+
       minTextAdapt: true,
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
