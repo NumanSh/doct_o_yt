@@ -37,7 +37,7 @@ class DoctorImageAndText extends StatelessWidget {
             textAlign: TextAlign.center,
             // I used .copyWith to change somthing in the style not exist in font32bold function in TextStyles
             // so if you want to add somthing in the style use copyWith
-            style: TextStyles.font32bold.copyWith(height: 1.8.h),
+            style: TextStyles.font32BlueBold.copyWith(height: 1.8.h),
           ),
         ),
       ],
