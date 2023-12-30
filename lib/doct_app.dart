@@ -23,7 +23,6 @@ class DoctApp extends StatelessWidget {
         //onGenerateRoute used for routing in the app using named routes
         onGenerateRoute: appRoutes.generateRoute,
         initialRoute: Routes.onBoardingScreen,
-        title: 'Flutter Demo',
         theme: ThemeData(
             primaryColor: ColorsManager.mainBlue,
             // scaffoldBackgroundColo used for background color of scaffold in the app in the design draft
