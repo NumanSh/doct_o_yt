@@ -1,9 +1,11 @@
+import 'package:doct_omar_yt/core/di/dependency_injection.dart';
 import 'package:flutter/material.dart';
 
 import 'core/routing/app_router.dart';
 import 'doct_app.dart';
 
 void main() {
+  setUpGetIt();
   runApp(DoctApp(
     appRoutes: AppRoutes(),
   ));
