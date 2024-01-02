@@ -27,6 +27,7 @@ class AppTextButton extends StatelessWidget {
     required this.buttonText,
     required this.buttonTextStyle,
     required this.onPressed,
+    required TextStyle textStyle,
   }) : super(key: key);
 
   @override
